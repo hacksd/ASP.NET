@@ -14,5 +14,5 @@ namespace BlindDating.Models
 
         public DatingProfile FromProfile { get; set; }
         public DatingProfile ToProfile { get; set; }
-    }
+    } 
 }
