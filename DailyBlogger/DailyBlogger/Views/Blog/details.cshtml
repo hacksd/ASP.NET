@@ -1,0 +1,25 @@
+﻿@model DailyBlogger.Models.BlogPost
+@{
+    Layout = null;
+ }
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Details</title>
+</head>
+<body>
+    <h2>@Model.blogTitle</h2>
+    <p>@Model.content</p>
+    <p>
+        <a asp-action="Edit" asp-route-id="@Model.ID">Edit this post</a>
+
+
+    </p>
+    <p>
+        <a asp-action="Delete" asp-route-id="@Model.ID">Delete this post</a>
+
+
+    </p>
+
+</body>
+</html>

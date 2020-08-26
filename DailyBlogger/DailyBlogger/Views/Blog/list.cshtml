@@ -11,7 +11,8 @@
     @foreach (var item in Model)
     {
         <div>
-            @Html.DisplayFor(m => item.blogTitle);
+            <a asp-controller="blog" asp-action=Details asp-route-id=@item.ID> @Html.DisplayFor(m => item.blogTitle);</a>
+           
         <p>@Html.DisplayFor(m => item.content);</p>
         <p>@Html.DisplayFor(m => item.blogDate);</p>
         </div>

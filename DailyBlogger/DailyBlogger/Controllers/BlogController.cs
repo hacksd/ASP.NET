@@ -42,5 +42,43 @@ namespace DailyBlogger.Controllers
             }
             return View(blog);
         }
+        public IActionResult Details(int ID)
+        {
+            BlogPost blogPost = _Context.BlogPost.Find(ID);
+            return View(blogPost);
+        }
+
+        public IActionResult Edit(int ID)
+        {
+            BlogPost blogPost = _Context.BlogPost.Find(ID);
+            return View(blogPost);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Update([Bind("blogTitle,content,blogDate,ID")] BlogPost blog)
+        {
+            if (ModelState.IsValid)
+            {
+                _Context.Update(blog);
+                _Context.SaveChanges();
+                return RedirectToAction(nameof(list));
+
+            }
+            return View(blog);
+        }
+
+        public IActionResult delete([Bind("ID")] int ID)
+        {
+            if (ModelState.IsValid)
+            {
+                BlogPost blogPost = _Context.BlogPost.Find(ID);
+                _Context.Remove(blogPost);
+                _Context.SaveChanges();
+                return RedirectToAction(nameof(list));
+
+            }
+            return View(ID);
+        }
     }
 }

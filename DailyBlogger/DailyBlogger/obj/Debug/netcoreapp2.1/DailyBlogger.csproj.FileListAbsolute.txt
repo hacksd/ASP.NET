@@ -36,3 +36,5 @@ C:\Users\ACT-Student\Source\Repos\hacksd\ASP.NET\DailyBlogger\DailyBlogger\obj\D
 C:\Users\ACT-Student\Source\Repos\hacksd\ASP.NET\DailyBlogger\DailyBlogger\obj\Debug\netcoreapp2.1\DailyBlogger.csproj.CopyComplete
 C:\Users\ACT-Student\Source\Repos\hacksd\ASP.NET\DailyBlogger\DailyBlogger\obj\Debug\netcoreapp2.1\Razor\Views\Blog\list.cshtml.g.cs
 C:\Users\ACT-Student\Source\Repos\hacksd\ASP.NET\DailyBlogger\DailyBlogger\obj\Debug\netcoreapp2.1\Razor\Views\Blog\new.cshtml.g.cs
+C:\Users\ACT-Student\Source\Repos\hacksd\ASP.NET\DailyBlogger\DailyBlogger\obj\Debug\netcoreapp2.1\Razor\Views\Blog\details.cshtml.g.cs
+C:\Users\ACT-Student\Source\Repos\hacksd\ASP.NET\DailyBlogger\DailyBlogger\obj\Debug\netcoreapp2.1\Razor\Views\Blog\Edit.cshtml.g.cs
