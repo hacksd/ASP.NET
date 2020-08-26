@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\DailyBlogger.csproj": {}
+    "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\DailyBlogger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\DailyBlogger.csproj": {
+    "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\DailyBlogger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\DailyBlogger.csproj",
+        "projectUniqueName": "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\DailyBlogger.csproj",
         "projectName": "DailyBlogger",
-        "projectPath": "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\DailyBlogger.csproj",
+        "projectPath": "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\DailyBlogger.csproj",
         "packagesPath": "C:\\Users\\ACT-Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\obj\\",
+        "outputPath": "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACT-Student\\AppData\\Roaming\\NuGet\\NuGet.Config",

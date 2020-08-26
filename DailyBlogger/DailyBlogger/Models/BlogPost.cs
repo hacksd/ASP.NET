@@ -9,8 +9,7 @@ namespace DailyBlogger.Models
     public class BlogPost
     {
 
-        public class BlogPost
-        {
+       
             [Key]
             public int ID { get; set; }
             public string blogTitle { get; set; }
@@ -18,4 +17,4 @@ namespace DailyBlogger.Models
             public DateTime blogDate { get; set; }
         }
     }
-}
+

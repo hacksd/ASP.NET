@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RWboZnVHUUBUoZ03s86EFFPHQ0xjyVqy6VOyzADbPdkb5/epxZwzUqI0DafGoEeTwIrBLunetwLN3mOi2mHaMw==",
+  "dgSpecHash": "HTdI/Nu9uVlrHinVwJKEXu09MgDMXVuLIOAb9AxPBrCIkuCiBmSfh4fnf5mJOWqgTV3bkjHvnyoMGhxpb+P/lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\DailyBlogger.csproj",
+  "projectFilePath": "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\DailyBlogger\\DailyBlogger\\DailyBlogger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACT-Student\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\ACT-Student\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

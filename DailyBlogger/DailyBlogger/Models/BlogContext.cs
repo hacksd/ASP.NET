@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace DailyBlogger.Models
 {
-    public class BlogContext
-    {
+   
         public class BlogContext : DbContext
         {
             public DbSet<BlogPost> BlogPost { get; set; }
@@ -18,4 +17,4 @@ namespace DailyBlogger.Models
             }
         }
     }
-}
+
