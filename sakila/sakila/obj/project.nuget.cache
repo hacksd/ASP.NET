@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5yeaiWzcMfyZTwlLxNbuqS+l/CWMFGfKNPssKIUGUQkkbDsZSQCmZrAakhB2OeM4THf1fNVZAsubuKGbx4SKxQ==",
+  "dgSpecHash": "KETROjy+bOd8+olB02U3E9wWj3vcUN1Qc+RcaeFOlY1lfC2Obj4WMiOo49YgheVGn1HlJuai1iisM3qysLplbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\sakila\\sakila\\sakila.csproj",
+  "projectFilePath": "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\sakila\\sakila\\sakila.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACT-Student\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\ACT-Student\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

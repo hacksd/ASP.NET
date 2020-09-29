@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\sakila\\sakila\\sakila.csproj": {}
+    "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\sakila\\sakila\\sakila.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\sakila\\sakila\\sakila.csproj": {
+    "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\sakila\\sakila\\sakila.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\sakila\\sakila\\sakila.csproj",
+        "projectUniqueName": "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\sakila\\sakila\\sakila.csproj",
         "projectName": "sakila",
-        "projectPath": "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\sakila\\sakila\\sakila.csproj",
+        "projectPath": "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\sakila\\sakila\\sakila.csproj",
         "packagesPath": "C:\\Users\\ACT-Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACT-Student\\source\\repos\\hacksd\\ASP.NET\\sakila\\sakila\\obj\\",
+        "outputPath": "C:\\Users\\ACT-Student\\Source\\Repos\\hacksd\\ASP.NET\\sakila\\sakila\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACT-Student\\AppData\\Roaming\\NuGet\\NuGet.Config",

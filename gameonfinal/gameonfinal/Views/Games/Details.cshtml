@@ -1,0 +1,64 @@
+﻿@model gameonfinal.Models.Games
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Games</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PhotoCover)
+        </dt>
+
+        <dd>
+            <img src="~/images/@Html.DisplayFor(model => model.PhotoCover)" width="200" height="200" />
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Releasedate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Releasedate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gametype)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Gametype.GameType1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PlatForm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PlatForm.Title)
+        </dd>
+        <dt>
+            Add To Cart
+        </dt>
+        <dd>
+            <a asp-action="cart" asp-route-Id="@Model.Id"> Add To Cart</a>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

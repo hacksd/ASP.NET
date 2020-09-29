@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gameonfinal", "gameonfinal\gameonfinal.csproj", "{896EA0A8-D3F0-4846-9268-13764C21BBCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{896EA0A8-D3F0-4846-9268-13764C21BBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896EA0A8-D3F0-4846-9268-13764C21BBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896EA0A8-D3F0-4846-9268-13764C21BBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896EA0A8-D3F0-4846-9268-13764C21BBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CD3C35E-7190-44D3-AECA-7CDDD5B99FC6}
+	EndGlobalSection
+EndGlobal
