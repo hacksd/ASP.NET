@@ -19,9 +19,9 @@ namespace gameonfinal.Controllers
         }
 
         // GET: Games
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? id)
         {
-            var gameonContext = _context.Games.Include(g => g.Gametype).Include(g => g.PlatForm);
+            var gameonContext = _context.Games.Where(g => g.PlatFormId == id).Include(g => g.Gametype).Include(g => g.PlatForm);
             return View(await gameonContext.ToListAsync());
         }
 

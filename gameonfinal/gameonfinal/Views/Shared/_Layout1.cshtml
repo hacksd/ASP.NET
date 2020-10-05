@@ -74,12 +74,16 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index" class="active">Home</a></li>
                     <li>
                         <a asp-area="" asp-controller="games" asp-action="Index">Video Games</a>
-                        <ul>
-                            <li><a href="video-games/playstation.html">Playstation</a></li>
-                            <li><a href="video-games/pc.html">Pc</a></li>
-                            <li><a href="video-games/xbox-one.html">Xbox one</a></li>
-                            <li><a href="video-games/cellphone.html">Cellphone</a></li>
-                        </ul>
+                        
+                            <ul>
+                                <li><a asp-controller="games" asp-action="index" asp-route-id="1">Playstation</a></li>
+                                <li><a asp-controller="games" asp-action="index" asp-route-id="3">Pc</a></li>
+                                <li><a asp-controller="games" asp-action="index" asp-route-id="2">Xbox</a></li>
+                                <li><a asp-controller="games" asp-action="index" asp-route-id="4">Nintendo</a></li>
+                                <li><a asp-controller="games" asp-action="index" asp-route-id="5">Cellphones</a></li>
+
+                            </ul>
+                        
                     </li>
                     <li><a asp-area="" asp-controller="Users" asp-action="Index">Account</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact Us</a></li>

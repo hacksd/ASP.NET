@@ -79,7 +79,7 @@ using gameonfinal.Models;
             WriteLiteral("\r\n        </dt>\r\n\r\n        <dd>\r\n            ");
             EndContext();
             BeginContext(336, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "bdd93a7c1c5c46e08f48607821fa46d8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "3eb0453fc4e6474bbfa12ce4ba1c4bbf", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -206,7 +206,7 @@ AddHtmlAttributeValue("", 355, Html.DisplayFor(model => model.PhotoCover), 355, 
             WriteLiteral("\r\n        </dd>\r\n        <dt>\r\n            Add To Cart\r\n        </dt>\r\n        <dd>\r\n            ");
             EndContext();
             BeginContext(1408, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "860430dca69e42b1a68494e02d9d2a35", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95b8cc02a1e244c89bd8f779c4e3a7ec", async() => {
                 BeginContext(1454, 12, true);
                 WriteLiteral(" Add To Cart");
                 EndContext();
@@ -241,7 +241,7 @@ AddHtmlAttributeValue("", 355, Html.DisplayFor(model => model.PhotoCover), 355, 
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(1517, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67fbf1a825fc4b8baac14a217d049cb0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e588a6f06a99448a8b26bc87ff063d51", async() => {
                 BeginContext(1563, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -276,7 +276,7 @@ AddHtmlAttributeValue("", 355, Html.DisplayFor(model => model.PhotoCover), 355, 
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(1579, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9cbb87e73fd841e08afd4c1afa42f854", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "222d5729a514412aa758b3452d587e3d", async() => {
                 BeginContext(1601, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

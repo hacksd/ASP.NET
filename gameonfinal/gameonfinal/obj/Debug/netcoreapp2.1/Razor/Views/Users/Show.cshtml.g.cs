@@ -135,7 +135,7 @@ using gameonfinal.Models;
             WriteLiteral("\n        </dt>\n        \n    </dl>\n</div>\n<div>\n    ");
             EndContext();
             BeginContext(897, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2bb714bc3c084df4ab7636df41d22275", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3c6a8372f6c0459e8df27d0e52f00d8d", async() => {
                 BeginContext(920, 14, true);
                 WriteLiteral("Back to Browse");
                 EndContext();
@@ -157,7 +157,7 @@ using gameonfinal.Models;
             WriteLiteral("\n    ");
             EndContext();
             BeginContext(943, 95, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "31efeeb3130b4ef39488ada637d5167e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81ccf40615754165ad0929306fede099", async() => {
                 BeginContext(1021, 13, true);
                 WriteLiteral("Send Message ");
                 EndContext();

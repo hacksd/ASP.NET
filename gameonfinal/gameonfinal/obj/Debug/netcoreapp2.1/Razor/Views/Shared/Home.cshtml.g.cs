@@ -59,7 +59,7 @@ using gameonfinal.Models;
             WriteLiteral("<!DOCTYPE html>\n<html dir=\"ltr\" lang=\"en-US\">");
             EndContext();
             BeginContext(45, 1373, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0adf8331bbfb44c29e1f2cda40ecc9f9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "428b3ceb227b41b990d7d6411357b719", async() => {
                 BeginContext(51, 1360, true);
                 WriteLiteral(@"<!-- Created by Artisteer v4.3.0.60745 -->
     <meta charset=""utf-8"">
@@ -105,7 +105,7 @@ using gameonfinal.Models;
             WriteLiteral("\n                             ");
             EndContext();
             BeginContext(1448, 13384, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b40d151bae44447f9b04df6a9976f658", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "56a92665cd9a4ab29c49a3d8fb6ba608", async() => {
                 BeginContext(1454, 1512, true);
                 WriteLiteral(@"
                                  <div id=""art-main"">
@@ -134,7 +134,7 @@ using gameonfinal.Models;
                                              ");
                 EndContext();
                 BeginContext(2966, 327, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d69b4c95b5f441e9a7593cdccb9ec0fd", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d0a736ba9ef84eed8d7cb8b8bfe0f8dd", async() => {
                     BeginContext(3033, 253, true);
                     WriteLiteral("\r\n                                                 <input type=\"text\" value=\"\">\r\n                                                 <input type=\"submit\" value=\"Search\" name=\"search\" class=\"art-search-button\">\r\n                                             ");
                     EndContext();

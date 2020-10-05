@@ -8,25 +8,41 @@
         <div class="art-content-layout layout-item-1">
             <div class="art-content-layout-row">
                 <div class="art-layout-cell layout-item-2" style="width: 25%">
-                    <h4>PC Games</h4>
-                    <p style="text-align: center;"><img width="102" height="102" alt="" src="images/desktop.png" class=""></p>
+                    <ul>
+                       
+                        
+                     
+                        <li><a asp-controller="games" asp-action="index" asp-route-id="4">Nintendo</a></li>
+                        <li><a asp-controller="games" asp-action="index" asp-route-id="5">Cellphones</a></li>
+
+                    </ul>
+                    <a asp-controller="games" asp-action="index" asp-route-id="3">
+                        <h4>PC Games</h4>
+                        <p style="text-align: center;"><img width="102" height="102" alt="" src="images/desktop.png" class=""></p>
+                    </a>
+                    
                 </div><div class="art-layout-cell layout-item-3" style="width: 25%">
-                    <h4>Playstation Games</h4>
-                    <p style="text-align: center;"><img width="125" height="125" alt="ps5 console" class="art-lightbox" src="images/Playstation-5-games-console-transparent-background-png-image.png"></p>
-                </div><div class="art-layout-cell layout-item-2" style="width: 25%">
-                    <h4>Xbox Games</h4>
-                    <p style="text-align: center;">
-                        <img width="102" height="102" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;" alt="" class="art-lightbox" src="images/003e410b-3b69-4acb-8bff-bc2070d56136.png">
-                    </p><p style="text-align: center;">
-                    </p>
-                </div><div class="art-layout-cell layout-item-3" style="width: 25%">
-                    <h4>CellPhones Games</h4>
-                    <p style="text-align: center;">
-                        <img width="102" height="102" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;" alt="" class="art-lightbox" src="images/f1ad998f-96c7-4f7c-86ab-631dba92b0a8.png">
-                    </p><p style="text-align: center;">
-                    </p><p style="text-align: center;">
-                    </p>
-                </div>
+                          <a asp-controller="games" asp-action="index" asp-route-id="1">
+                              <h4>Playstation Games</h4>
+                              <p style="text-align: center;"><img width="125" height="125" alt="ps5 console" class="" src="images/Playstation-5-games-console-transparent-background-png-image.png"></p>
+                          </a>
+</div><div class="art-layout-cell layout-item-2" style="width: 25%">
+    <a asp-controller="games" asp-action="index" asp-route-id="2">
+    <h4>Xbox Games</h4>
+    <p style="text-align: center;">
+        <img width="125" height="125" alt="" class="" src="images/003e410b-3b69-4acb-8bff-bc2070d56136.png">
+    </p><p style="text-align: center;">
+    </p>
+        </a>
+</div><div class="art-layout-cell layout-item-3" style="width: 25%">
+    <a asp-controller="games" asp-action="index" asp-route-id="5">
+        <h4>CellPhones Games</h4>
+        <p style="text-align: center;">
+            <img width="125" height="125" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;" alt="" class="art-lightbox" src="images/f1ad998f-96c7-4f7c-86ab-631dba92b0a8.png">
+        </p><p style="text-align: center;">
+        </p><p style="text-align: center;">
+        </p></a>
+</div>
             </div>
         </div>
     </div>
